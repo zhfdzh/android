@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">FileManagment</string>
+    <string name="create_file">创建文件</string>
+    <string name="create_folder">创建文件夹</string>
+    <string name="create_hint">文件名</string>
+</resources>

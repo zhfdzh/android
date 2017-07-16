@@ -27,8 +27,9 @@
         android:layout_width="match_parent">
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="53sp"
-            android:text="MEM"/>
+            android:gravity="center"
+            android:layout_height="40sp"
+            android:text="MEM:"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -39,12 +40,12 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content">
         <TextView
-            android:id="@+id/_grg"
+            android:id="@+id/_drg"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:gravity="center"
             android:layout_height="wrap_content"
-            android:text="DGR"/>
+            android:text="DEG"/>
         <Button
             android:id="@+id/mc"
             android:text="MC"
@@ -64,40 +65,80 @@
         <Button
             android:layout_width="0dp"
             android:layout_weight="1"
-            android:id="@+id/seven"
-            android:text="7"
+            android:id="@+id/drg"
+            android:text="DRG"
             android:layout_height="wrap_content"/>
         <Button
             android:layout_height="wrap_content"
             android:layout_width="0dp"
             android:layout_weight="1"
-            android:id="@+id/eight"
-            android:text="8"/>
+            android:id="@+id/sin"
+            android:text="sin"/>
         <Button
             android:layout_height="wrap_content"
             android:layout_width="0dp"
             android:layout_weight="1"
-            android:id="@+id/nine"
-            android:text="9"/>
+            android:id="@+id/cos"
+            android:text="cos"/>
         <Button
             android:layout_height="wrap_content"
             android:layout_width="0dp"
             android:layout_weight="1"
-            android:id="@+id/divide"
-            android:text="÷"/>
+            android:id="@+id/tan"
+            android:text="tan"/>
         <Button
             android:layout_height="wrap_content"
             android:layout_width="0dp"
             android:layout_weight="1"
-            android:id="@+id/left"
-            android:text="("/>
+            android:id="@+id/factorical"
+            android:text="n!"/>
         <Button
             android:layout_height="wrap_content"
             android:layout_width="0dp"
             android:layout_weight="1"
-            android:id="@+id/right"
-            android:text=")"/>
+            android:id="@+id/bksp"
+            android:text="bksp"/>
     </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/seven"
+                android:text="7"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/eight"
+                android:text="8"/>
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/nine"
+                android:text="9"/>
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/divide"
+                android:text="÷"/>
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/left"
+                android:text="("/>
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/right"
+                android:text=")"/>
+        </TableRow>
     <TableRow
         android:layout_width="fill_parent"
         android:layout_height="wrap_content">
@@ -129,7 +170,7 @@
             android:layout_height="wrap_content"
             android:layout_width="0dp"
             android:layout_weight="1"
-            android:id="@+id/aqrt"
+            android:id="@+id/sqrt"
             android:text="√"/>
         <Button
             android:layout_height="wrap_content"
